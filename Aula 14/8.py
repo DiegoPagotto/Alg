@@ -1,0 +1,16 @@
+str_min = input('Informe uma string: ')
+str_min = str_min.lower()
+espaços = str_min.count(' ')
+print(str_min,' possui ', espaços,' espaços')
+a = str_min.count('a')
+e = str_min.count('e')
+i = str_min.count('i')
+o = str_min.count('o')
+u = str_min.count('u')
+print('A = ',a)
+print('E = ',e)
+print('I = ',i)
+print('O = ',o)
+print('U = ',u)
+
+
